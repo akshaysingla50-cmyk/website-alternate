@@ -1,0 +1,14 @@
+{
+  "source_file": "lovable website code.html",
+  "found_lovable_artefacts": {
+    "lovable_title": false,
+    "lovable_meta_author": false,
+    "lovable_meta_desc": true,
+    "lovable_assets_domain": true,
+    "lovable_dev_link": true,
+    "lovable_badge_id": true,
+    "gpteng_font_cdn": true,
+    "flock_analytics": true
+  },
+  "note": "Original exported HTML referenced a Lovable-hosted JS/CSS bundle; without those build artefacts the original app UI cannot be reproduced from the HTML alone."
+}

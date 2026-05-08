@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>My Website</title>
+    <meta name="description" content="A fast, lightweight website hosted on GitHub Pages." />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="My Website" />
+    <meta property="og:description" content="A fast, lightweight website hosted on GitHub Pages." />
+
+    <meta name="theme-color" content="#0B1220" />
+
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <script defer src="./assets/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./" aria-label="Home">
+          <span class="brand-mark" aria-hidden="true">◆</span>
+          <span class="brand-text">My Website</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="nav-toggle-bars" aria-hidden="true"></span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="site-main">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Hello — I’m</p>
+            <h1 class="hero-title">Your Name</h1>
+            <p class="hero-subtitle">
+              A short, punchy one-liner about what you do. Keep it human, specific, and useful.
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn primary" href="#contact">Get in touch</a>
+              <a class="btn ghost" href="#work">See work</a>
+            </div>
+
+            <ul class="hero-meta" aria-label="Quick facts">
+              <li><span class="chip">Based in Munich</span></li>
+              <li><span class="chip">Open to collaboration</span></li>
+              <li><span class="chip">Fast delivery</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card" role="region" aria-label="Highlights">
+            <div class="card">
+              <h2 class="card-title">Highlights</h2>
+              <ul class="checklist">
+                <li>Clean, responsive layout</li>
+                <li>Open-source friendly styling</li>
+                <li>No vendor-specific badges or trackers</li>
+              </ul>
+              <p class="muted">
+                Replace this content with your real website sections. Everything here is plain HTML/CSS/JS.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bg" aria-hidden="true"></div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About</h2>
+          <p>
+            Write 3–5 lines about who you are, what you’re building, and what you care about.
+            Keep it concrete (domains, outcomes, tools) and avoid buzzwords.
+          </p>
+          <div class="grid-3">
+            <div class="panel">
+              <h3>Strength</h3>
+              <p>One specific strength that’s easy to prove with examples.</p>
+            </div>
+            <div class="panel">
+              <h3>Focus</h3>
+              <p>The kind of problems you enjoy solving.</p>
+            </div>
+            <div class="panel">
+              <h3>Stack</h3>
+              <p>Tools/skills you actually use (e.g., Python, Power BI, Azure, React).</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section alt">
+        <div class="container">
+          <h2>Work</h2>
+          <p class="muted">A few featured items. Keep each one outcome-focused.</p>
+
+          <div class="cards">
+            <article class="card">
+              <h3>Project One</h3>
+              <p>What it was, what changed, and how you measured success.</p>
+              <p class="card-links">
+                <a href="#" aria-label="Project One details">Details</a>
+                <a href="#" aria-label="Project One repo">Repo</a>
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Project Two</h3>
+              <p>What it was, what changed, and how you measured success.</p>
+              <p class="card-links">
+                <a href="#" aria-label="Project Two details">Details</a>
+                <a href="#" aria-label="Project Two repo">Repo</a>
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Project Three</h3>
+              <p>What it was, what changed, and how you measured success.</p>
+              <p class="card-links">
+                <a href="#" aria-label="Project Three details">Details</a>
+                <a href="#" aria-label="Project Three repo">Repo</a>
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <p class="muted">The simplest contact section wins.</p>
+
+          <div class="contact-grid">
+            <div class="panel">
+              <h3>Email</h3>
+              <p><a href="mailto:you@example.com">you@example.com</a></p>
+            </div>
+            <div class="panel">
+              <h3>LinkedIn</h3>
+              <p><a href="#">Add your profile link</a></p>
+            </div>
+            <div class="panel">
+              <h3>GitHub</h3>
+              <p><a href="#">Add your repo/profile link</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> My Website. Built with plain HTML/CSS/JS.</p>
+        <p class="muted">Hosted on GitHub Pages.</p>
+      </div>
+    </footer>
+  </body>
+</html>
